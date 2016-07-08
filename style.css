@@ -265,11 +265,11 @@ button,
 input,
 select,
 textarea {
-	color: #404040;
-	font-family: sans-serif;
-	font-size: 16px;
+	color: #404040; /**/
+    font-family: Cabin, Arial, sans-serif;
+	font-size: 16px; /**/
 	font-size: 1rem;
-	line-height: 1.5;
+	line-height: 1.5; /**/
 }
 
 h1,
@@ -281,8 +281,39 @@ h6 {
 	clear: both;
 }
 
+h1, h2, h3 {
+    display: block;
+    margin: 0 0 10px 0;
+    line-height: 1.4em;
+    font-weight: 400;
+}
+
+/*24 30 36*/
+
+h1 {
+    font-size: 2.4em;
+    margin: 0 0 20px 0;
+}
+
+h2 {
+    font-size: 3em;
+    margin: 0 0 25px 0;
+}
+
+h3 {
+    font-size: 3.6em;
+    font-weight: 600;
+/*    margin: 0 0 30px 0;*/
+}
+
 p {
+    display: block;
 	margin-bottom: 1.5em;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: normal;
+    line-height: normal;
+    color: rgba(0,0,0,.54);
 }
 
 dfn,
@@ -506,26 +537,28 @@ textarea {
 ## Links
 --------------------------------------------------------------*/
 a {
-	color: royalblue;
+    text-decoration: none;
+    display: block;
+    color: #fff;
 }
 
 a:visited {
-	color: purple;
+	/*color: purple;*/
 }
 
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
+	/*color: midnightblue;*/
 }
 
 a:focus {
-	outline: thin dotted;
+/*	outline: thin dotted;*/
 }
 
 a:hover,
 a:active {
-	outline: 0;
+/*	outline: 0;*/
 }
 
 /*--------------------------------------------------------------
@@ -550,9 +583,19 @@ a:active {
 	position: relative;
 }
 
-.main-navigation a {
-	display: block;
-	text-decoration: none;
+.main-navigation a { /**/
+    position: relative;
+    font-size: 1.8em;
+    text-shadow: 0px 0px 3px rgba(80,80,80,1);
+    
+    -webkit-transition: all 3s;
+	-moz-transition: all 3s;
+	transition: all .3s;
+}
+
+.main-navigation a:hover { /**/
+    color: #FF3D00;  
+    text-shadow: none;
 }
 
 .main-navigation ul ul {
