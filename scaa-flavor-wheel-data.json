@@ -1,26 +1,33 @@
 {
   "name": "flavor wheel",
+  "color": "#FFFFFF",
   "children": [
     {
       "name": "floral",
+      "color": "#d90f67",
       "children": [
         {
           "name": "black tea",
+          "color": "#d90f67",
           "size": 1
         },
         {
           "name": "floral",
+          "color": "#d90f67",
           "children": [
             {
               "name": "chamomile",
+              "color": "#d90f67",
               "size": 1
             },
             {
               "name": "rose",
+              "color": "#d90f67",
               "size": 1
             },
             {
               "name": "jasmine",
+              "color": "#d90f67",
               "size": 1
             }
           ]
@@ -148,6 +155,10 @@
             },
             {
               "name": "citric acid",
+              "size": 1
+            },
+            {
+              "name": "malic acid",
               "size": 1
             }
             ]
