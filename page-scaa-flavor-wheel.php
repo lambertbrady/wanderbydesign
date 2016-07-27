@@ -63,8 +63,9 @@ d3.json("<?php bloginfo('template_directory'); ?>/scaa-flavor-wheel-data.json", 
       .attr("d", arc)
       .style("fill", function(d) { return d.color; })
       .on("click", click)
-    .append("title")
-      .text(function(d) { return d.name + "\n" + formatNumber(d.value); });
+    .append("div")
+      .attr("class", "coffee-svg-arc")
+      .text(function(d) { return d.name; });
 });
 
 function click(d) {
