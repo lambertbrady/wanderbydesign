@@ -57,7 +57,7 @@ var arc = d3.svg.arc()
     .innerRadius(function(d) { return Math.sqrt(d.y); })
     .outerRadius(function(d) { return Math.sqrt(d.y + d.dy); });
 
-d3.json("scaa flavor wheel.json", function(error, root) {
+d3.json("<?php bloginfo('template_directory'); ?>/scaa flavor wheel.json", function(error, root) {
   if (error) throw error;
 
   var path = svg.datum(root).selectAll("path")
