@@ -58,7 +58,7 @@ d3.json("<?php bloginfo('template_directory'); ?>/scaa-flavor-wheel-data.json", 
       .data(partition.nodes(root))
     .enter().append("path")
       .attr("d", arc)
-      .style("fill", function(d) { return color((d.children ? d : d.parent).name); })
+      .style("fill", function(d) { return d.data.color; })
       .on("click", click)
     .append("title")
       .text(function(d) { return d.name + "\n" + formatNumber(d.value); });
