@@ -5,6 +5,9 @@
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
  * @package wander
+ * 
+ * 
+ * Note: background color is: #d0d1cb
  */
 get_header(); ?>
 
