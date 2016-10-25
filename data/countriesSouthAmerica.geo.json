@@ -6,7 +6,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"ar",
-        "name":"Argentina"
+        "name":"Argentina",
+        "country":"1"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -20,7 +21,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"bo",
-        "name":"Bolivia"
+        "name":"Bolivia",
+        "country":"2"
       },
       "geometry":{
         "type":"Polygon",
@@ -34,7 +36,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"br",
-        "name":"Brazil"
+        "name":"Brazil",
+        "country":"3"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -48,7 +51,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"cl",
-        "name":"Chile"
+        "name":"Chile",
+        "country":"4"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -62,7 +66,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"co",
-        "name":"Colombia"
+        "name":"Colombia",
+        "country":"5"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -76,7 +81,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"ec",
-        "name":"Ecuador"
+        "name":"Ecuador",
+        "country":"6"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -90,7 +96,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"gf",
-        "name":"French Guiana"
+        "name":"French Guiana",
+        "country":"7"
       },
       "geometry":{
         "type":"Polygon",
@@ -104,7 +111,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"gy",
-        "name":"Guyana"
+        "name":"Guyana",
+        "country":"8"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -118,7 +126,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"py",
-        "name":"Paraguay"
+        "name":"Paraguay",
+        "country":"9"
       },
       "geometry":{
         "type":"Polygon",
@@ -132,7 +141,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"pe",
-        "name":"Peru"
+        "name":"Peru",
+        "country":"10"
       },
       "geometry":{
         "type":"Polygon",
@@ -146,7 +156,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"sr",
-        "name":"Suriname"
+        "name":"Suriname",
+        "country":"11"
       },
       "geometry":{
         "type":"Polygon",
@@ -160,7 +171,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"uy",
-        "name":"Uruguay"
+        "name":"Uruguay",
+        "country":"12"
       },
       "geometry":{
         "type":"Polygon",
@@ -174,7 +186,8 @@
       "type":"Feature",
       "properties":{
         "cca2":"ve",
-        "name":"Venezuela"
+        "name":"Venezuela",
+        "country":"13"
       },
       "geometry":{
         "type":"MultiPolygon",
