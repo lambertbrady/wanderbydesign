@@ -7,7 +7,7 @@
       "properties":{
         "cca2":"ar",
         "name":"Argentina",
-        "country":"1"
+        "countryID":"1"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -22,7 +22,7 @@
       "properties":{
         "cca2":"bo",
         "name":"Bolivia",
-        "country":"2"
+        "countryID":"2"
       },
       "geometry":{
         "type":"Polygon",
@@ -37,7 +37,7 @@
       "properties":{
         "cca2":"br",
         "name":"Brazil",
-        "country":"3"
+        "countryID":"3"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -52,7 +52,7 @@
       "properties":{
         "cca2":"cl",
         "name":"Chile",
-        "country":"4"
+        "countryID":"4"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -67,7 +67,7 @@
       "properties":{
         "cca2":"co",
         "name":"Colombia",
-        "country":"5"
+        "countryID":"5"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -82,7 +82,7 @@
       "properties":{
         "cca2":"ec",
         "name":"Ecuador",
-        "country":"6"
+        "countryID":"6"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -97,7 +97,7 @@
       "properties":{
         "cca2":"gf",
         "name":"French Guiana",
-        "country":"7"
+        "countryID":"7"
       },
       "geometry":{
         "type":"Polygon",
@@ -112,7 +112,7 @@
       "properties":{
         "cca2":"gy",
         "name":"Guyana",
-        "country":"8"
+        "countryID":"8"
       },
       "geometry":{
         "type":"MultiPolygon",
@@ -127,7 +127,7 @@
       "properties":{
         "cca2":"py",
         "name":"Paraguay",
-        "country":"9"
+        "countryID":"9"
       },
       "geometry":{
         "type":"Polygon",
@@ -142,7 +142,7 @@
       "properties":{
         "cca2":"pe",
         "name":"Peru",
-        "country":"10"
+        "countryID":"10"
       },
       "geometry":{
         "type":"Polygon",
@@ -157,7 +157,7 @@
       "properties":{
         "cca2":"sr",
         "name":"Suriname",
-        "country":"11"
+        "countryID":"11"
       },
       "geometry":{
         "type":"Polygon",
@@ -172,7 +172,7 @@
       "properties":{
         "cca2":"uy",
         "name":"Uruguay",
-        "country":"12"
+        "countryID":"12"
       },
       "geometry":{
         "type":"Polygon",
@@ -187,7 +187,7 @@
       "properties":{
         "cca2":"ve",
         "name":"Venezuela",
-        "country":"13"
+        "countryID":"13"
       },
       "geometry":{
         "type":"MultiPolygon",
