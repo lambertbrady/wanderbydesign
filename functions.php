@@ -115,6 +115,17 @@ function wander_scripts() {
 add_action( 'wp_enqueue_scripts', 'wander_scripts' );
 
 /**
+ * Add the 'script' HTML tag to tags exempt from texurization.
+ * https://codex.wordpress.org/Plugin_API/Filter_Reference/no_texturize_tags
+ */
+function my_no_texturzie_tags( $tags ) {
+	$tags[] = 'script';
+	return $tags;
+}
+add_filter( 'no_texturize_tags', 'my_no_texturzie_tags' );
+
+
+/**
  * Implement the Custom Header feature.
  */
 require get_template_directory() . '/inc/custom-header.php';
