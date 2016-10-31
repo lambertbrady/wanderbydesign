@@ -81,7 +81,7 @@
         "name":"Colombia",
         "countryID":"5",
         "visited":"yes",
-        "current":"yes",
+        "current":"no",
         "never":"no"
       },
       "geometry":{
@@ -170,8 +170,8 @@
         "cca2":"pe",
         "name":"Peru",
         "countryID":"10",
-        "visited":"no",
-        "current":"no",
+        "visited":"yes",
+        "current":"yes",
         "never":"no"
       },
       "geometry":{
