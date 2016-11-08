@@ -5,8 +5,6 @@
 		<name>Ecuador Path</name>
 		<NetworkLink>
 			<name>Where We've Been</name>
-			<refreshVisibility>1</refreshVisibility>
-			<message>This is a pop-up message. You will only see this once</message>
 			<Link>
 				<href>http://www.google.com/maps/d/kml?forcekml=1&amp;mid=13Nxq5wGeXsgzBEztcfwETwhDixM&amp;lid=GKCVdENZ3X4</href>
 			</Link>
