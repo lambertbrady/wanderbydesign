@@ -156,6 +156,8 @@ function testURL(index, countryName) {
    xhr.send();
 }
 function addFiles(url) {
+   //NOTE: server settings must be updated for this to work. Add a User-Defined MIME Type:
+   //MIME Type = "application/javascript" and Extension = "jsonp"
    var xhr = new XMLHttpRequest();
    xhr.open('GET', url);
    xhr.onreadystatechange = function () {
