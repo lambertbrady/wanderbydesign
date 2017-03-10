@@ -179,9 +179,12 @@ function makeUrlArray(fileContent) {
    }
 }
 function getKML(url) {
+   //NOTE: server settings must be updated for this to work. Add a User-Defined MIME Type:
+   //MIME Type = "application/javascript" and Extension = "jsonp"
    $.ajax({
       crossOrigin: true,
       url: url,
+      dataType: 'jsonp',
       success: function(result){
             kmlCallback(result)
          }
